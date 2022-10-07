@@ -1,3 +1,4 @@
+/* Configurações gerais */
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -19,17 +20,19 @@ a {
     text-decoration: none;
 }
 
-.logo{
+/* Header */
+
+.logo {
     padding: 18px 0;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     color: #f9faf8;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom:  90px;
+    margin-bottom: 90px;
 }
 
 header {
@@ -59,15 +62,15 @@ header {
     align-items: center;
 }
 
-.main-text{
+.main-text {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: start;
     color: #f9faf8;
 }
 
 .secondary-text {
-    text-align: start;
+    text-align: initial;
     font-size: 18px;
     color: #e5e7eb;
     margin-bottom: 14px;
@@ -83,3 +86,98 @@ button {
     background-color: #3882f6;
 }
 
+/* Main */
+
+.infor-section {
+    text-align: center;
+    height: 500px;
+}
+
+.infor-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.infor-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+    border: 4px solid #3882f6;
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.subtext {
+    text-align: center;
+    color: #4d4b4b;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+    padding: 100px
+}
+
+.quote-text{
+    color: #4d4b4b;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.signup {
+    color: #e5e7eb;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+    width: 900px;
+    height: 150px;
+    padding: 0 100px;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.signup button {
+    border: 2px solid #e5e7eb;
+}
+
+/* Footer */
