@@ -5,10 +5,17 @@ body {
     padding: 0;
 }
 
-ul {
-    display: flex;
+p,
+ul,
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
+}
+
+ul {
+    display: flex;
     gap: 16px;
     list-style-type: none;
     padding: 18px 0;
@@ -181,3 +188,15 @@ button {
 }
 
 /* Footer */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+footer p {
+    color: #e5e7eb;
+}
