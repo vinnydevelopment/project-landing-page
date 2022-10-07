@@ -11,7 +11,7 @@ h1,
 h2,
 h3,
 figure,
-blockquote{
+blockquote {
     margin: 0;
     padding: 0;
 }
@@ -145,7 +145,7 @@ button {
     padding: 100px
 }
 
-.quote-text{
+.quote-text {
     color: #4d4b4b;
     font-size: 36px;
     font-weight: 300;
