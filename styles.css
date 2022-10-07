@@ -9,7 +9,9 @@ p,
 ul,
 h1,
 h2,
-h3 {
+h3,
+figure,
+blockquote{
     margin: 0;
     padding: 0;
 }
@@ -181,7 +183,9 @@ button {
 .bold {
     font-size: 20px;
     font-weight: 600;
+    display: block;
 }
+
 
 .signup button {
     border: 2px solid #e5e7eb;
